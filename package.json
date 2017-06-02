@@ -1,14 +1,19 @@
 {
   "name": "m101js",
   "version": "1.0.0",
-  "description": "MongoDB 101 JS course",
+  "description": "MongoDB 101 JS course Mongo University",
   "main": "app.js",
   "dependencies": {
-        "consolidate": "~0.13.1",
-        "express": "~4.13.3",
-        "mongodb": "~2.1.3",
-        "nunjucks": "~2.2.0"
+    "consolidate": "~0.13.1",
+    "express": "~4.13.3",
+    "mongodb": "~2.1.3",
+    "body-parser": "~1.14.2",
+    "nunjucks": "~2.2.0"
   },
   "author": "Eduardo Ramirez",
-  "license": "BSD"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imerarz/m101js"
+  }
 }
